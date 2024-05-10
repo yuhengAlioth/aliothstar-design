@@ -1,8 +1,8 @@
-import "@aliothstar-design/theme/index.css";
-import { makeInstaller } from "@aliothstar-design/utils";
-import componens from "./componens";
+import '@aliothstar-design/theme/index.scss'
+import { makeInstaller } from '@aliothstar-design/utils'
+import componens from './componens'
 
-const installer = makeInstaller(componens);
+const installer = makeInstaller(componens)
 
-export * from "@aliothstar-design/components";
-export default installer;
+export * from '@aliothstar-design/components'
+export default installer

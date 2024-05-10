@@ -1,9 +1,18 @@
 <script setup lang="ts">
+// 设置组件选项
 defineOptions({
-  name: "AlButton",
-});
+  // 设置组件名称
+  name: 'AlButton',
+})
 </script>
 
 <template>
-  <button style="background-color: bisque; color: red">测试按钮</button>
+  <button class="al-button">测试按钮</button>
+  <a>链接</a>
 </template>
+<style lang="scss" scoped>
+.al-button {
+  background-color: bisque;
+  color: red;
+}
+</style>
