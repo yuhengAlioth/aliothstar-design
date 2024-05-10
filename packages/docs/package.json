@@ -1,0 +1,17 @@
+{
+  "name": "@aliothstar-design/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "'aliothstar' <'1532250426@qq.com'> ('https://www.aliothstar.cn')",
+  "license": "'MIT'",
+  "devDependencies": {
+    "vitepress": "^1.1.4"
+  }
+}
